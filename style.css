@@ -1,0 +1,63 @@
+/* Genel yapı */
+body {
+  font-family: 'Merriweather', serif;
+  background-color: #fffcee;
+  color: #1e3a8a;
+}
+
+/* Logo ve başlıklar */
+.logo, .heading {
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  color: #1e3a8a;
+  letter-spacing: 1px;
+}
+
+/* Slogan */
+.slogan {
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  color: #475569;
+}
+
+/* Sipariş butonu */
+.btn-order {
+  background-color: #2563eb;
+  transition: all 0.3s ease;
+}
+.btn-order:hover {
+  background-color: #1e40af;
+}
+
+/* WhatsApp butonu */
+.btn-whatsapp {
+  background-color: #10b981;
+  transition: all 0.3s ease;
+}
+.btn-whatsapp:hover {
+  background-color: #047857;
+}
+
+/* Ürün kartı */
+.product-card {
+  transition: all 0.3s ease;
+  border: 1px solid #fcd34d;
+}
+.product-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(255, 215, 64, 0.2);
+}
+
+/* Arka planlar */
+.flower-bg {
+  background-color: #fffbeb;
+}
+
+/* Görsel kutusu */
+.image-wrapper {
+  background-color: #fffcee;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
